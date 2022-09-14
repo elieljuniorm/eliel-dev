@@ -1,11 +1,9 @@
 <template>
-
   <MenuNav />
   <Experiencia />
   <Formacao />
   <Contato />
   <Rodape />
-
 </template>
 
 <script>
