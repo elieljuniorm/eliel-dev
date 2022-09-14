@@ -16,9 +16,9 @@
       responsividade mobile first e versionamento de código com <strong>Git e GitHub</strong>.
     </p>
   </section>
-  <div class="containerProjeto">
+  <section class="containerProjeto">
     <Projeto />
-  </div>
+  </section>
 </template>
 
 <script>
