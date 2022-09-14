@@ -1,25 +1,28 @@
 <template>
 
-  <Header />
+  <MenuNav />
   <Experiencia />
   <Formacao />
   <Contato />
+  <Rodape />
 
 </template>
 
 <script>
-import Header from './components/Header.vue';
+import MenuNav from './components/MenuNav.vue';
 import Experiencia from './components/Experiencia.vue';
 import Formacao from './components/Formacao.vue';
 import Contato from './components/Contato.vue';
+import Rodape from './components/Rodape.vue';
 
 export default {
   name: 'App',
   components: {
-    Header,
+    MenuNav,
     Experiencia,
     Formacao,
-    Contato
+    Contato,
+    Rodape
   }
 }
 </script>
