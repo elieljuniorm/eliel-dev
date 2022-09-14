@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="container">
         <h1>Eliel Maia</h1>
 
         <nav>

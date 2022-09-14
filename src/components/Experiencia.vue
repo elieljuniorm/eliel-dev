@@ -1,4 +1,5 @@
 <template>
+
   <div>
     <img src="https://avatars.githubusercontent.com/u/79880373?v=4" alt="Foto de Perfil">
   </div>
@@ -15,9 +16,9 @@
       responsividade mobile first e versionamento de código com <strong>Git e GitHub</strong>.
     </p>
   </section>
-
-  <Projeto />
-
+  <div class="containerProjeto">
+    <Projeto />
+  </div>
 </template>
 
 <script>
@@ -30,5 +31,12 @@ export default {
 </script>
 
 <style scoped>
-
+.containerProjeto {
+  max-width: 1200px;
+  padding: 40px 20px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 50px;
+}
 </style>

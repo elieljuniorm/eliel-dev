@@ -1,13 +1,13 @@
 <template>
-    <div v-for="projeto in projetos" :key="projeto.id">
+    <div v-for="projeto in projetos" :key="projeto.id" class="container">
 
         <h3>{{projeto.nome}}</h3>
-
-        <p>{{projeto.descricao}}</p>
 
         <ul>
             <li>{{projeto.habilidade}}</li>
         </ul>
+
+        <p>{{projeto.descricao}}</p>
 
     </div>
 </template>
@@ -41,5 +41,13 @@ export default {
 </script>
 
 <style scoped>
-
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px 20px;
+    padding: 20px;
+    background: #f5f5f5;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
 </style>
