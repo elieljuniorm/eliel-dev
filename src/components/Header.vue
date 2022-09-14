@@ -1,6 +1,14 @@
 <template>
     <div>
-        <h2>menu header</h2>
+        <h1>Eliel Maia</h1>
+
+        <nav>
+            <ul>
+                <li><a href="#experincia">Experiência</a></li>
+                <li><a href="#formacao">Formação</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
     </div>
 </template>
 
