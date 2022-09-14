@@ -16,11 +16,16 @@
     </p>
   </section>
 
+  <Projeto />
+
 </template>
 
 <script>
+import Projeto from './Projeto.vue';
+
 export default {
-  name: 'ExperienciaSection'
+  name: "ExperienciaSection",
+  components: { Projeto }
 }
 </script>
 
