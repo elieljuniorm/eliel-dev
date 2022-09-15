@@ -4,7 +4,7 @@
 
     <img src="https://avatars.githubusercontent.com/u/79880373?v=4" alt="Foto de Perfil" class="fotoPerfil">
 
-    <div>
+    <div class="linhaCor">
 
       <p class="textoFront">Desenvolvedor Front End</p>
 
@@ -18,7 +18,8 @@
 
     <h2 id="experincia" class="experincia">Experiência</h2>
 
-    <p class="textoP">Desenvolvo projetos front end utlizando <strong>Vue.Js,</strong> <strong>React.Js</strong> e utlizando apenas
+    <p class="textoP">Desenvolvo projetos front end utlizando <strong>Vue.Js,</strong> <strong>React.Js</strong> e
+      utlizando apenas
       <strong>HTML, CSS e JavaScript</strong>. Sólida experiência com consumo de <strong>API REST</strong>,
       responsividade mobile first e versionamento de código com <strong>Git e GitHub</strong>.
     </p>
@@ -54,6 +55,10 @@ export default {
   padding: .5em 0;
   width: 8em;
 }
+.linhaCor{
+  border-left: 5px solid var(--cor-linhas);
+  padding-left: .1rem;
+}
 
 .textoFront {
   font-size: 1.4rem;
@@ -75,7 +80,8 @@ export default {
   font-weight: bold;
   padding: .5em 0;
 }
-.textoP{
+
+.textoP {
   line-height: 1.5;
 }
 

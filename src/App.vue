@@ -26,14 +26,19 @@ export default {
 </script>
 
 <style>
-*{
+:root {
+  --cor-linhas: rgb(255, 215, 0);
+}
+
+* {
   max-width: 80vh;
   margin: auto;
   padding: 0;
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
 }
-a{
+
+a {
   color: currentColor;
   text-decoration: unset;
   cursor: pointer;

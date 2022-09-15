@@ -34,17 +34,6 @@ export default {
 .tituloNome {
     padding: .5em 0;
 }
-.tituloNome::before{
-    content: "";
-    display: block;
-    width: 4em;
-    height: 4em;
-    background: url(@/assets/imagem-transparente2.png) no-repeat center;
-    position: absolute;
-    top: 1em;
-    left: 3em;
-    z-index: -1;
-}
 .listaUl {
     display: flex;
     flex-wrap: wrap;
