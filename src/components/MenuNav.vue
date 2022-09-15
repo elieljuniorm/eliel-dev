@@ -1,12 +1,12 @@
 <template>
     <div class="container">
-        <h1>Eliel Maia</h1>
+        <h1 class="tituloNome">Eliel Maia</h1>
 
         <nav>
-            <ul>
-                <li><a href="#experincia">Experiência</a></li>
-                <li><a href="#formacao">Formação</a></li>
-                <li><a href="#contato">Contato</a></li>
+            <ul class="listaUl">
+                <li class="linkLi"><a href="#experincia">Experiência</a></li>
+                <li class="linkLi"><a href="#formacao">Formação</a></li>
+                <li class="linkLi"><a href="#contato">Contato</a></li>
             </ul>
         </nav>
     </div>
@@ -14,10 +14,35 @@
 
 <script>
 export default {
-name: 'MenuNavHome'
+    name: 'MenuNavHome'
 }
 </script>
 
 <style scoped>
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 1.5em 0;
+}
+.tituloNome{
+    padding: .5em 0;
+}
 
+.listaUl {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.linkLi {
+    list-style: none;
+    font-weight: 500;
+    font-size: 20px;
+    margin: .5em 0;
+    padding: .5em 1.5em;
+    background: #f5f5f5;
+    border-radius: 4px;
+}
 </style>

@@ -1,12 +1,12 @@
 <template>
 
-  <div>
-    <img src="https://avatars.githubusercontent.com/u/79880373?v=4" alt="Foto de Perfil">
-  </div>
+  <section class="conteudoInicial">
+    <img src="https://avatars.githubusercontent.com/u/79880373?v=4" alt="Foto de Perfil" class="fotoPerfil">
 
-  <section>
-    <p>Desenvolvedor Front End</p>
-    <p>Localizado em Ananindeu-PA</p>
+    <div>
+      <p class="textoFront">Desenvolvedor Front End</p>
+      <p class="textoLocalizacao">Localizado em Ananindeu-PA</p>
+    </div>
   </section>
 
   <section>
@@ -31,6 +31,29 @@ export default {
 </script>
 
 <style scoped>
+.conteudoInicial {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  margin: .5em .5em 2em .5em;
+}
+
+.fotoPerfil {
+  border-radius: 50%;
+  display: block;
+  margin-left: .5em;
+  padding: .5em 0;
+  width: 8em;
+}
+
+.textoFront {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.textoLocalizacao {
+  font-size: 15px;
+}
+
 .containerProjeto {
   max-width: 1200px;
   padding: 40px 20px;
