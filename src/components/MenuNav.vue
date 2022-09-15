@@ -1,12 +1,17 @@
 <template>
+
     <div class="container">
+
         <h1 class="tituloNome">Eliel Maia</h1>
 
         <nav>
+
             <ul class="listaUl">
+
                 <li class="linkLi"><a href="#experincia">Experiência</a></li>
                 <li class="linkLi"><a href="#formacao">Formação</a></li>
                 <li class="linkLi"><a href="#contato">Contato</a></li>
+
             </ul>
         </nav>
     </div>
@@ -25,10 +30,21 @@ export default {
     flex-direction: column;
     padding: 1.5em 0;
 }
-.tituloNome{
+
+.tituloNome {
     padding: .5em 0;
 }
-
+.tituloNome::before{
+    content: "";
+    display: block;
+    width: 4em;
+    height: 4em;
+    background: url(@/assets/imagem-transparente2.png) no-repeat center;
+    position: absolute;
+    top: 1em;
+    left: 3em;
+    z-index: -1;
+}
 .listaUl {
     display: flex;
     flex-wrap: wrap;

@@ -1,24 +1,34 @@
 <template>
 
   <section class="conteudoInicial">
+
     <img src="https://avatars.githubusercontent.com/u/79880373?v=4" alt="Foto de Perfil" class="fotoPerfil">
 
     <div>
+
       <p class="textoFront">Desenvolvedor Front End</p>
+
       <p class="textoLocalizacao">Localizado em Ananindeu-PA</p>
+
     </div>
+
   </section>
 
-  <section>
-    <h2 id="experincia">Experiência</h2>
-    <p>Desenvolvo projetos front end utlizando <strong>Vue.Js,</strong> <strong>React.Js</strong> e utlizando apenas
-      <strong>HTML , CSS e JavaScript</strong>. Sólida experiência com consumo de <strong>API REST</strong>,
+  <section class="textoExperiencia">
+
+    <h2 id="experincia" class="experincia">Experiência</h2>
+
+    <p class="textoP">Desenvolvo projetos front end utlizando <strong>Vue.Js,</strong> <strong>React.Js</strong> e utlizando apenas
+      <strong>HTML, CSS e JavaScript</strong>. Sólida experiência com consumo de <strong>API REST</strong>,
       responsividade mobile first e versionamento de código com <strong>Git e GitHub</strong>.
     </p>
+
   </section>
+
   <section class="containerProjeto">
     <Projeto />
   </section>
+
 </template>
 
 <script>
@@ -34,24 +44,39 @@ export default {
 .conteudoInicial {
   display: grid;
   grid-template-columns: 2fr 3fr;
-  margin: .5em .5em 2em .5em;
+  gap: 10px;
+  margin: .5em 1em 2em 1em;
 }
 
 .fotoPerfil {
   border-radius: 50%;
   display: block;
-  margin-left: .5em;
   padding: .5em 0;
   width: 8em;
 }
 
 .textoFront {
-  font-size: 22px;
+  font-size: 1.4rem;
   font-weight: bold;
 }
 
 .textoLocalizacao {
-  font-size: 15px;
+  font-size: 1.22rem;
+}
+
+.textoExperiencia {
+  margin: 1em 1.5em;
+  font-size: 1.12rem;
+  line-height: normal;
+}
+
+.experincia {
+  font-size: 3rem;
+  font-weight: bold;
+  padding: .5em 0;
+}
+.textoP{
+  line-height: 1.5;
 }
 
 .containerProjeto {
