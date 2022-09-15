@@ -83,6 +83,8 @@ export default {
 
 .textoP {
   line-height: 1.5;
+  border-left: 5px solid var(--cor-linhas);
+  padding-left: .1rem;
 }
 
 .containerProjeto {
