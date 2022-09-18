@@ -2,14 +2,21 @@
 
     <div v-for="projeto in projetos" :key="projeto.id" class="container">
 
-        <h3 class="textoTitulo">{{projeto.nome}}</h3>
+        <div>
+            <h3 class="textoTitulo">{{projeto.nome}}</h3>
+            <p class="textoDescricao">{{projeto.descricao}}</p>
+        </div>
 
-        <ul class="listaUl">
-            <li class="linhaLi">{{projeto.habilidade}}</li>
-        </ul>
+        <div>
+            <ul class="listaUl">
+                <li class="linhaLi" v-for="habilidade in projeto.habilidades" :key="habilidade.id">{{habilidade}}</li>
+            </ul>
+        </div>
 
-        <p class="textoDescricao">{{projeto.descricao}}</p>
+    </div>
 
+    <div>
+        <a href="https://github.com/elielm14" target="_blank" rel="noopener noreferrer" class="linkGitHub"><span><img src="@/assets/iconmonstr-github-1-240.png" alt="github" class="img"></span>Repositório Github</a>
     </div>
 
 </template>
@@ -21,20 +28,20 @@ export default {
     data() {
         return {
             projetos: {
-                calculadora: {
-                    nome: "Calculadora",
-                    descricao: "calduladora de frete em react, uahauhasuha m auhauhaua mkajaua iauahuan uiahuahuaha  uahuahuah",
-                    habilidade: ["React.js", "HTML", "CSS", "JavaScript"]
-                },
                 foto: {
-                    nome: "Maia fotos",
-                    descricao: "site de fotografia feito em vue, uahaua , aauaunsa, auhauhau,,iunaunaunauass iauiauaunm",
-                    habilidade: ["React.js", "HTML", "CSS", "JavaScript"]
+                    nome: "Maia Fotografia, construído em Vue.Js",
+                    descricao: "Maia Fotografia foi pensado para ser uma álbum de fotos de uma empresa fictícia especialista em casamentos(Teste técnico).",
+                    habilidades: ["Vue.Js", "API REST", "Progressive Image", "Vue-Router", "Vue Resource"]
                 },
                 buscador: {
-                    nome: "Buscador de endereço",
-                    descricao: "Entrega o endereço com base no cep feito em react, aybabaa aauhauhauah ahauyayhba uhauauybaa y",
-                    habilidade: ["React.js", "HTML", "CSS", "JavaScript"]
+                    nome: "Fácil Consulta, construído em Vue.Js",
+                    descricao: "Foi desenvolvido o Front-end de um Cadastro de Profissional da Saúde (médico), para o teste técnico da empresa Fácil Consulta.",
+                    habilidades: ["React.js", "HTML", "CSS", "JavaScript", "API REST", "Axios"]
+                },
+                calculadora: {
+                    nome: "Maia Transport, construído em React.Js",
+                    descricao: "Maia Transport é uma calculadora de frete padrão de utilização do operador logístico fictício.",
+                    habilidades: ["React.js", "HTML", "CSS", "JavaScript"]
                 },
             },
         }
@@ -46,9 +53,8 @@ export default {
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 10px 20px;
+    gap: 5px 5px;
     padding: 20px;
-    margin-bottom: 20px;
     background: #f5f5f5;
     border-radius: 4px;
 }
@@ -57,12 +63,44 @@ export default {
     font-size: 1.2rem;
     line-height: 1.1;
     font-weight: 700;
-    margin: 0;
+    margin-bottom: .5em;
 }
-.linhaLi{
+
+.textoDescricao {
+    text-align: start;
+    line-height: 1.4;
+}
+
+.listaUl {
+    display: flex;
+    justify-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.linhaLi {
     list-style: none;
     background: white;
     border-radius: 4px;
-    padding: .8em;
+    padding: 3px 3px;
+    margin: .5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.linkGitHub {
+    background-image: linear-gradient(to bottom, #8241f9, #4e277b);
+    border-color: #150a27;
+    color: #fff;
+    padding: 0.75em 1.25em;
+    border-radius: 6px;
+}
+.img{
+    width: 1.5em;
+    position: relative;
+    top: 5px;
+    right: 5px;
 }
 </style>

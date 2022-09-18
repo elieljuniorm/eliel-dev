@@ -93,6 +93,6 @@ export default {
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr;
-  gap: 50px;
+  gap: 30px;
 }
 </style>
