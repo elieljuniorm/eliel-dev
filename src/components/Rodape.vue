@@ -1,7 +1,7 @@
 <template>
-    <div>
-        <span>© Copyrigth Eliel Maia Developer 2022</span>
-        <span>Design by Eliel Maia</span>
+    <div class="container">
+        <span class="copyDescricao">© Copyrigth Eliel Maia Developer 2022</span>
+        <span class="copyDescricao">Design by Eliel Maia</span>
     </div>
 </template>
 
@@ -12,5 +12,15 @@ export default {
 </script>
 
 <style scoped>
-
+.container{
+    background: #141414;
+    color: #a3a3a3;
+    display: flex;
+    flex-direction: column;
+    padding: 3em 0 2em 0;
+}
+.copyDescricao{
+    font-style: italic;
+    padding: .5em 0;
+}
 </style>
