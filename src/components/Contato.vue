@@ -11,7 +11,8 @@
                 <a href="https://api.whatsapp.com/send?phone=5591986060649" target="_blank" rel="noopener noreferrer"
                     class="linkContato hoverlink">+55 (91) 98606-0649</a>
                 <a href="http://www.linkedin.com/in/eliel-maia/" target="_blank" rel="noopener noreferrer"
-                    class="linkContato hoverlink"><img src="@/assets/iconmonstr-linkedin-3-240.png" alt="Linkedin icone" class="img"> Linkedin</a>
+                    class="linkContato hoverlink"><img src="@/assets/iconmonstr-linkedin-3-240.png" alt="Linkedin icone"
+                        class="img"> Linkedin</a>
                 <p class="linkContato">elieljuniorm@gmail.com</p>
             </div>
         </div>
@@ -68,15 +69,37 @@ export default {
     border-left: 5px solid var(--cor-linhas);
     padding-left: 0.1rem;
 }
-.hoverlink:hover{
+
+.hoverlink:hover {
     border: none;
     padding-left: 7px;
 }
-.img{
+
+.img {
     width: 1em;
     position: relative;
     top: 4px;
     right: 3px;
     margin-left: .3em;
+}
+
+@media only screen and (min-width: 1024px) {
+    .titulo {
+        max-width: var(--margem);
+    }
+
+    .descricao {
+        max-width: var(--margem);
+        margin: 0 auto;
+    }
+
+    .contato {
+        flex-wrap: nowrap;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .linkContato{
+        margin: 3em 1em;
+    }
 }
 </style>

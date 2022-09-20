@@ -18,8 +18,10 @@
     </div>
 
     <div class="botaoDrive">
-        <a href="https://drive.google.com/drive/folders/1_zHOoao6EbtROksQa2qi63DvYSmeNEI3?usp=sharing" target="_blank" rel="noopener noreferrer" class="linkDrive">Baixar Currículo</a>
-        <a href="https://drive.google.com/drive/folders/1_jH8zkooMPOthT3OpmfhzPQ6VWA9Fq67?usp=sharing" target="_blank" rel="noopener noreferrer" class="linkDrive">Certificados</a>
+        <a href="https://drive.google.com/drive/folders/1_zHOoao6EbtROksQa2qi63DvYSmeNEI3?usp=sharing" target="_blank"
+            rel="noopener noreferrer" class="linkDrive">Baixar Currículo</a>
+        <a href="https://drive.google.com/drive/folders/1_jH8zkooMPOthT3OpmfhzPQ6VWA9Fq67?usp=sharing" target="_blank"
+            rel="noopener noreferrer" class="linkDrive">Certificados</a>
     </div>
 
 </template>
@@ -101,7 +103,8 @@ export default {
     display: flex;
     margin: 2em 0;
 }
-.linkDrive{
+
+.linkDrive {
     background: var(--cor-preto-padrao);
     color: var(--cor-cinza-padrao);
     padding: 0.7em;
@@ -111,8 +114,20 @@ export default {
     font-weight: bold;
     box-shadow: -2px 2px;
 }
-.linkDrive:hover{
+
+.linkDrive:hover {
     background: var(--cor-preto-sombra);
     transition: 200ms;
+}
+
+@media only screen and (min-width: 1024px) {
+    .containerPricipal {
+        max-width: var(--margem);
+    }
+
+    .botaoDrive {
+        margin: 2em auto;
+        max-width: 50%;
+    }
 }
 </style>

@@ -28,15 +28,12 @@ export default {
 <style>
 :root {
   --cor-linhas: #ffd700;
-
   --cor-cinza-padrao: #a3a3a3;
-
   --cor-preto-padrao: #000;
-  
   --cor-preto-sombra: #141414;
-
   --cor-branco-gelo: #f1f1f1;
-  --cor-branco-sombra: #DCDCDC;
+  --cor-branco-sombra: #dcdcdc;
+  --margem: 70%;
 }
 
 * {

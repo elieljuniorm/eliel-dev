@@ -57,4 +57,12 @@ export default {
     border-left: 5px solid var(--cor-linhas);
     padding-left: 0.1rem;
 }
+
+@media only screen and (min-width: 1024px) {
+
+    .tituloFormacao,
+    .formacaoTexto {
+        max-width: var(--margem);
+    }
+}
 </style>
