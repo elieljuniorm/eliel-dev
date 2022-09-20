@@ -31,6 +31,7 @@ export default {
   --cor-cinza-padrao: #a3a3a3;
   --cor-preto-padrao: #000;
   --cor-preto-sombra: #141414;
+  --cor-preto-grey: #363636;
   --cor-branco-gelo: #f1f1f1;
   --cor-branco-sombra: #dcdcdc;
   --margem: 100vh;

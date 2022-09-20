@@ -13,7 +13,7 @@ export default {
 
 <style scoped>
 .container{
-    background: var(--cor-preto-sombra);
+    background: var(--cor-preto-padrao);
     color: var(--cor-cinza-padrao);
     display: flex;
     flex-direction: column;

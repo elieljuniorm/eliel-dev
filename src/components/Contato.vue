@@ -28,7 +28,7 @@ export default {
 
 <style scoped>
 .containerCor {
-    background: var(--cor-preto-padrao);
+    background: var(--cor-preto-sombra);
     color: var(--cor-branco-gelo);
     padding-top: 1em;
 }
@@ -62,7 +62,7 @@ export default {
 
 .linkContato {
     margin: 1em 0;
-    background: var(--cor-preto-sombra);
+    background: var(--cor-preto-padrao);
     padding: 0.7em;
     margin: 1em 0.2em;
     border-radius: 4px;

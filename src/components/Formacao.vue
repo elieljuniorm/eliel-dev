@@ -32,7 +32,7 @@ export default {
 
 <style scoped>
 .containerCor {
-    background: var(--cor-preto-sombra);
+    background: var(--cor-preto-grey);
     color: var(--cor-branco-gelo);
     grid-template-columns: 1fr;
     padding: .2em 0;
