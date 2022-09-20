@@ -47,7 +47,7 @@ export default {
 }
 
 .tituloFormacao {
-    font-size: 3rem;
+    font-size: 2em;
     font-weight: bold;
     padding: 0.5em 0;
 }

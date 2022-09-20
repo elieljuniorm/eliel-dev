@@ -34,6 +34,7 @@ export default {
 
 .tituloNome {
     padding: .5em 0;
+    font-size: 2.5em;
 }
 .listaUl {
     display: flex;
