@@ -8,7 +8,7 @@
 
             <p class="formacaoTexto">
                 Cursando <strong>Análise e Desenvolvimento de Sistemas</strong> na <strong>Estácio</strong>. Sou
-                desesnvolvedor web extremamente motivado, e sempre estou em constante desenvolvimento de minhas
+                desenvolvedor web extremamente motivado, e sempre estou em constante desenvolvimento de minhas
                 habilidades.
             </p>
 
