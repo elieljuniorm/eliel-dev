@@ -64,7 +64,7 @@ export default {
 
 .linhaCor {
   border-left: 5px solid var(--cor-linhas);
-  padding-left: .1rem;
+  padding-left: 0.3em;
 }
 
 .textoFront {
@@ -91,7 +91,7 @@ export default {
 .textoP {
   line-height: 1.5;
   border-left: 5px solid var(--cor-linhas);
-  padding-left: .1rem;
+  padding-left: 0.3em;
 }
 
 .containerProjeto {

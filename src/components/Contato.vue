@@ -48,7 +48,7 @@ export default {
 .descricao {
     line-height: 1.5;
     border-left: 5px solid var(--cor-linhas);
-    padding-left: 0.1rem;
+    padding-left: 0.3em;
     margin: 1em 1.5em 2.5em 1.5em;
     font-size: 1.12rem;
     line-height: normal;
@@ -67,7 +67,7 @@ export default {
     margin: 1em 0.2em;
     border-radius: 4px;
     border-left: 5px solid var(--cor-linhas);
-    padding-left: 0.1rem;
+    padding-left: 0.3em;
 }
 
 .hoverlink:hover {

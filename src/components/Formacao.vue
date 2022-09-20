@@ -55,7 +55,7 @@ export default {
 .formacaoTexto {
     line-height: 1.5;
     border-left: 5px solid var(--cor-linhas);
-    padding-left: 0.1rem;
+    padding-left: 0.3em;
 }
 
 @media only screen and (min-width: 1024px) {

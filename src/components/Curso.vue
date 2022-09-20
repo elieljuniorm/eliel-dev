@@ -85,7 +85,7 @@ export default {
     font-size: 1.1rem;
     line-height: 1.4;
     margin-bottom: .5em;
-    padding-left: .1em;
+    padding-left: 0.3em;
     color: var(--cor-cinza-padrao);
     border-left: 5px solid var(--cor-linhas);
 }
