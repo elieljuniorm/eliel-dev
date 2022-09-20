@@ -19,7 +19,7 @@
 
       <h2 id="experincia" class="experincia">Experiência</h2>
 
-      <p class="textoP">Desenvolvo projetos front end utlizando <strong>Vue.Js,</strong> <strong>React.Js</strong> e
+      <p class="textoP">Desenvolvo projetos utlizando <strong>Vue.Js,</strong> <strong>React.Js</strong> e
         utlizando apenas
         <strong>HTML, CSS e JavaScript</strong>. Sólida experiência com consumo de <strong>API REST</strong>,
         responsividade mobile first e versionamento de código com <strong>Git e GitHub</strong>.

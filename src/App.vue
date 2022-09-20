@@ -33,7 +33,7 @@ export default {
   --cor-preto-sombra: #141414;
   --cor-branco-gelo: #f1f1f1;
   --cor-branco-sombra: #dcdcdc;
-  --margem: 70%;
+  --margem: 100vh;
 }
 
 * {

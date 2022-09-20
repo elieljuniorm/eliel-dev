@@ -67,7 +67,7 @@ export default {
 }
 
 .textoDescricao {
-    text-align: start;
+    text-align: justify;
     line-height: 1.4;
 }
 
