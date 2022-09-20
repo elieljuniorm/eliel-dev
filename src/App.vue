@@ -27,11 +27,20 @@ export default {
 
 <style>
 :root {
-  --cor-linhas: rgb(255, 215, 0);
+  --cor-linhas: #ffd700;
+
+  --cor-cinza-padrao: #a3a3a3;
+
+  --cor-preto-padrao: #000;
+  
+  --cor-preto-sombra: #141414;
+
+  --cor-branco-gelo: #f1f1f1;
+  --cor-branco-sombra: #DCDCDC;
 }
 
 * {
-  max-width: 80vh;
+  max-width: 100%;
   margin: auto;
   padding: 0;
   box-sizing: border-box;

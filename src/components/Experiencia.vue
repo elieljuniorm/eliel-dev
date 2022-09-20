@@ -1,34 +1,36 @@
 <template>
-
-  <section class="conteudoInicial">
-
-    <img src="https://avatars.githubusercontent.com/u/79880373?v=4" alt="Foto de Perfil" class="fotoPerfil">
-
-    <div class="linhaCor">
-
-      <p class="textoFront">Desenvolvedor Front End</p>
-
-      <p class="textoLocalizacao">Localizado em Ananindeu-PA</p>
-
-    </div>
-
-  </section>
-
-  <section class="textoExperiencia">
-
-    <h2 id="experincia" class="experincia">Experiência</h2>
-
-    <p class="textoP">Desenvolvo projetos front end utlizando <strong>Vue.Js,</strong> <strong>React.Js</strong> e
-      utlizando apenas
-      <strong>HTML, CSS e JavaScript</strong>. Sólida experiência com consumo de <strong>API REST</strong>,
-      responsividade mobile first e versionamento de código com <strong>Git e GitHub</strong>.
-    </p>
-
-  </section>
-
-  <section class="containerProjeto">
-    <Projeto />
-  </section>
+<div class="sectionInicial">
+  
+    <section class="conteudoInicial">
+  
+      <img src="https://avatars.githubusercontent.com/u/79880373?v=4" alt="Foto de Perfil" class="fotoPerfil">
+  
+      <div class="linhaCor">
+  
+        <p class="textoFront">Desenvolvedor Front End</p>
+  
+        <p class="textoLocalizacao">Localizado em Ananindeu-PA</p>
+  
+      </div>
+  
+    </section>
+  
+    <section class="textoExperiencia">
+  
+      <h2 id="experincia" class="experincia">Experiência</h2>
+  
+      <p class="textoP">Desenvolvo projetos front end utlizando <strong>Vue.Js,</strong> <strong>React.Js</strong> e
+        utlizando apenas
+        <strong>HTML, CSS e JavaScript</strong>. Sólida experiência com consumo de <strong>API REST</strong>,
+        responsividade mobile first e versionamento de código com <strong>Git e GitHub</strong>.
+      </p>
+  
+    </section>
+  
+    <section class="containerProjeto">
+      <Projeto />
+    </section>
+</div>
 
 </template>
 
@@ -42,17 +44,20 @@ export default {
 </script>
 
 <style scoped>
+.sectionInicial{
+  background: var(--cor-branco-gelo);
+}
 .conteudoInicial {
   display: grid;
   grid-template-columns: 2fr 3fr;
   gap: 10px;
-  margin: .5em 1em 2em 1em;
+  margin: 0 1em 2em 1em;
 }
 
 .fotoPerfil {
   border-radius: 50%;
   display: block;
-  padding: .5em 0;
+  padding: 1em 0;
   width: 8em;
 }
 .linhaCor{

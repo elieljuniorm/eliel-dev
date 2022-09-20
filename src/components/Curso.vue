@@ -7,13 +7,19 @@
 
                 <h3 class="titulo">{{curso.nome}}</h3>
 
-                <p class="descricao">{{curso.habilidade}}</p>
+                <p class="descricao">{{curso.empresa}}</p>
 
                 <span class="tempo">{{curso.tempo}}</span>
 
             </section>
 
         </div>
+
+    </div>
+
+    <div class="botaoDrive">
+        <a href="https://drive.google.com/drive/folders/1_zHOoao6EbtROksQa2qi63DvYSmeNEI3?usp=sharing" target="_blank" rel="noopener noreferrer" class="linkDrive">Baixar Currículo</a>
+        <a href="https://drive.google.com/drive/folders/1_jH8zkooMPOthT3OpmfhzPQ6VWA9Fq67?usp=sharing" target="_blank" rel="noopener noreferrer" class="linkDrive">Certificados</a>
     </div>
 
 </template>
@@ -24,25 +30,30 @@ export default {
     data() {
         return {
             cursos: {
-                alura: {
+                react: {
+                    nome: 'React Completo',
+                    empresa: 'Oirigamid',
+                    tempo: '36 horas'
+                },
+                reactAlura: {
                     nome: 'Formação React',
-                    habilidade: 'react.js',
+                    empresa: 'Alura',
                     tempo: '24 horas'
                 },
-                origamid: {
-                    nome: 'Curso Completo de Vue',
-                    habilidade: 'vue.js',
-                    tempo: '34 horas'
+                vue: {
+                    nome: 'Formação Vue.Js',
+                    empresa: 'Alura',
+                    tempo: '55 horas'
                 },
-                dio: {
+                javascript: {
                     nome: 'Linguagem JavaScript',
-                    habilidade: 'Javascript',
+                    empresa: 'Alura',
                     tempo: '50 horas'
                 },
-                car: {
-                    nome: 'Linguagem JavaScript',
-                    habilidade: 'Javascript',
-                    tempo: '50 horas'
+                front: {
+                    nome: 'Formação Front-end - HTML5 e CSS3',
+                    empresa: 'Alura',
+                    tempo: '52 horas'
                 },
             }
         }
@@ -61,7 +72,7 @@ export default {
 }
 
 .sectionConteudo {
-    background: #000;
+    background: var(--cor-preto-padrao);
     padding: .7em;
     margin: 1em .2em;
     border-radius: 4px;
@@ -73,7 +84,7 @@ export default {
     line-height: 1.4;
     margin-bottom: .5em;
     padding-left: .1em;
-    color: #a3a3a3;
+    color: var(--cor-cinza-padrao);
     border-left: 5px solid var(--cor-linhas);
 }
 
@@ -83,6 +94,25 @@ export default {
 
 .tempo {
     font-size: 1.1rem;
-    color: #a3a3a3;
+    color: var(--cor-cinza-padrao);
+}
+
+.botaoDrive {
+    display: flex;
+    margin: 2em 0;
+}
+.linkDrive{
+    background: var(--cor-preto-padrao);
+    color: var(--cor-cinza-padrao);
+    padding: 0.7em;
+    border-radius: 4px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    box-shadow: -2px 2px;
+}
+.linkDrive:hover{
+    background: var(--cor-preto-sombra);
+    transition: 200ms;
 }
 </style>

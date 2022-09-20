@@ -31,7 +31,7 @@ export default {
                 foto: {
                     nome: "Maia Fotografia, construído em Vue.Js",
                     descricao: "Maia Fotografia foi pensado para ser uma álbum de fotos de uma empresa fictícia especialista em casamentos(Teste técnico).",
-                    habilidades: ["Vue.Js", "API REST", "Progressive Image", "Vue-Router", "Vue Resource"]
+                    habilidades: ["Vue.Js", "API REST", "Lazy loading", "Vue-Router", "Vue Resource"]
                 },
                 buscador: {
                     nome: "Fácil Consulta, construído em Vue.Js",
@@ -55,7 +55,7 @@ export default {
     grid-template-columns: 1fr 1fr;
     gap: 5px 5px;
     padding: 20px;
-    background: #f5f5f5;
+    background: var(--cor-branco-sombra);
     border-radius: 4px;
 }
 
@@ -80,7 +80,7 @@ export default {
 
 .linhaLi {
     list-style: none;
-    background: white;
+    background: var(--cor-branco-gelo);
     border-radius: 4px;
     padding: 3px 3px;
     margin: .5em;

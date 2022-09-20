@@ -9,9 +9,9 @@
 
             <div class="contato">
                 <a href="https://api.whatsapp.com/send?phone=5591986060649" target="_blank" rel="noopener noreferrer"
-                    class="linkContato">+55 (91) 9 8606-0649</a>
+                    class="linkContato hoverlink">+55 (91) 98606-0649</a>
                 <a href="http://www.linkedin.com/in/eliel-maia/" target="_blank" rel="noopener noreferrer"
-                    class="linkContato"><img src="@/assets/iconmonstr-linkedin-3-240.png" alt="Linkedin icone" class="img"> Linkedin</a>
+                    class="linkContato hoverlink"><img src="@/assets/iconmonstr-linkedin-3-240.png" alt="Linkedin icone" class="img"> Linkedin</a>
                 <p class="linkContato">elieljuniorm@gmail.com</p>
             </div>
         </div>
@@ -27,8 +27,8 @@ export default {
 
 <style scoped>
 .containerCor {
-    background: #000;
-    color: #fff;
+    background: var(--cor-preto-padrao);
+    color: var(--cor-branco-gelo);
     padding-top: 1em;
 }
 
@@ -61,12 +61,16 @@ export default {
 
 .linkContato {
     margin: 1em 0;
-    background: #141414;
+    background: var(--cor-preto-sombra);
     padding: 0.7em;
     margin: 1em 0.2em;
     border-radius: 4px;
     border-left: 5px solid var(--cor-linhas);
     padding-left: 0.1rem;
+}
+.hoverlink:hover{
+    border: none;
+    padding-left: 7px;
 }
 .img{
     width: 1em;

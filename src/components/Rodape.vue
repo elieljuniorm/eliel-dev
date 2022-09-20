@@ -13,8 +13,8 @@ export default {
 
 <style scoped>
 .container{
-    background: #141414;
-    color: #a3a3a3;
+    background: var(--cor-preto-sombra);
+    color: var(--cor-cinza-padrao);
     display: flex;
     flex-direction: column;
     padding: 3em 0 2em 0;

@@ -29,6 +29,7 @@ export default {
     align-items: center;
     flex-direction: column;
     padding: 1.5em 0;
+    background: var(--cor-branco-gelo);
 }
 
 .tituloNome {
@@ -47,7 +48,7 @@ export default {
     font-size: 20px;
     margin: .5em 0;
     padding: .5em 1.5em;
-    background: #f5f5f5;
+    background: var(--cor-branco-sombra);
     border-radius: 4px;
 }
 </style>
