@@ -34,7 +34,7 @@ export default {
             cursos: {
                 react: {
                     nome: 'React Completo',
-                    empresa: 'Oirigamid',
+                    empresa: 'Origamid',
                     tempo: '36 horas'
                 },
                 reactAlura: {
