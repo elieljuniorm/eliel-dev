@@ -6,6 +6,7 @@ Portfolio de programação, construído em Vue.Js.
 
 * **[Node.js](https://nodejs.org/en/)**
 * **[Vue.js](https://vuejs.org/)**
+* **[Vue-CLI](https://cli.vuejs.org/)**
 
 ## Executando Localmente o Projeto 🔥
 
